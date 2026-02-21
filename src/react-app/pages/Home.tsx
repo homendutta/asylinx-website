@@ -199,7 +199,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-blue-50">
+    <div className="min-h-screen w-full overflow-x-hidden bg-gradient-to-br from-slate-50 via-purple-50 to-blue-50">
       {/* Navigation */}
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -344,7 +344,7 @@ export default function Home() {
                   Complete School Management System
                 </span>
               </div>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
                 Transform Your
                 <span className="block bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                   School Management
@@ -398,7 +398,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl blur-3xl opacity-20"></div>
 
               <div
@@ -413,7 +413,7 @@ export default function Home() {
                   className="w-full h-auto rounded-2xl object-cover"
                 />
               </div>
-              <div className="absolute bottom-0 right-4 transform translate-y-1/2 bg-white rounded-2xl shadow-xl px-5 py-3 flex items-center space-x-3">
+              <div className="absolute bottom-0 right-2 sm:right-4 transform sm:translate-y-1/2 translate-y-0 bg-white rounded-2xl shadow-xl px-4 py-2 flex items-center space-x-2">
                 <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
                   <Check className="w-6 h-6 text-green-600 stroke-[3]" />
                 </div>
@@ -760,7 +760,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="relative">
+            <div className="relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl blur-3xl opacity-30"></div>
               <div className="relative bg-white/10 backdrop-blur-lg p-4 rounded-3xl border border-white/20 shadow-2xl">
                 <img
@@ -981,7 +981,7 @@ export default function Home() {
                 ))}
               </div>
             </div>
-            <div className="relative">
+            <div className="relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl blur-3xl opacity-20"></div>
 
               <div
@@ -996,7 +996,7 @@ export default function Home() {
                   className="w-full h-auto rounded-2xl object-cover"
                 />
               </div>
-              <div className="absolute bottom-0 right-4 transform translate-y-1/2 bg-white rounded-2xl shadow-xl px-5 py-3 flex items-center space-x-3">
+              <div className="absolute bottom-0 right-2 sm:right-4 transform sm:translate-y-1/2 translate-y-0 bg-white rounded-2xl shadow-xl px-4 py-2 flex items-center space-x-2">
                 <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
                   <Check className="w-6 h-6 text-green-600 stroke-[3]" />
                 </div>
