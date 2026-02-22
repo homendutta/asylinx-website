@@ -338,13 +338,13 @@ export default function Home() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
+            <div className="space-y-8 min-w-0">
               <div className="inline-block">
-                <span className="bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-semibold">
+                <span className="bg-purple-100 text-purple-700 px-4 py-2 rounded-2xl sm:rounded-2xl text-sm font-semibold">
                   Complete School Management System
                 </span>
               </div>
-              <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold leading-tight break-words">
                 Transform Your
                 <span className="block bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                   School Management
@@ -358,20 +358,20 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href="#contact"
-                  className="group bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center space-x-2"
+                  className="group bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-2xl font-semibold hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center space-x-2"
                 >
                   <span>Get Started Today</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </a>
                 <a
                   href="tel:+916003432625"
-                  className="bg-white text-purple-600 px-8 py-4 rounded-full font-semibold border-2 border-purple-600 hover:bg-purple-50 transition-all duration-300 flex items-center justify-center space-x-2"
+                  className="bg-white text-purple-600 px-8 py-4 rounded-2xl font-semibold border-2 border-purple-600 hover:bg-purple-50 transition-all duration-300 flex items-center justify-center space-x-2"
                 >
                   <Phone className="w-5 h-5" />
                   <span>+91 (600) 3432625</span>
                 </a>
               </div>
-              <div className="flex items-center space-x-8 pt-4">
+              <div className="flex flex-wrap items-center gap-4 pt-4">
                 <div className="flex items-center space-x-2">
                   <div className="flex -space-x-2">
                     {[1, 2, 3, 4].map((i) => (
@@ -398,22 +398,20 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl blur-3xl opacity-20"></div>
-
-              <div
-                className="relative p-3 rounded-2xl 
-                  bg-white/10 backdrop-blur-xl 
-                  border border-white/30 
-                  shadow-[0_25px_80px_rgba(0,0,0,0.25)]"
-              >
+            <div className="relative w-full">
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl blur-3xl opacity-30"></div>
+              <div className="relative bg-white/10 backdrop-blur-lg p-4 rounded-3xl border border-white/20 shadow-2xl">
                 <img
                   src="/hero.png"
                   alt="School Management"
-                  className="w-full h-auto rounded-2xl object-cover"
+                  className="w-full h-auto rounded-2xl shadow-2xl object-cover"
                 />
               </div>
-              <div className="absolute bottom-0 right-2 sm:right-4 transform sm:translate-y-1/2 translate-y-0 bg-white rounded-2xl shadow-xl px-4 py-2 flex items-center space-x-2">
+              <div
+                className="absolute bottom-0 right-4 translate-y-1/2
+  bg-white rounded-2xl shadow-xl px-5 py-3
+  flex items-center space-x-3"
+              >
                 <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
                   <Check className="w-6 h-6 text-green-600 stroke-[3]" />
                 </div>
@@ -698,7 +696,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <a
               href="#contact"
-              className="inline-flex items-center space-x-2 bg-white text-purple-700 px-8 py-4 rounded-full font-semibold hover:bg-purple-50 transition-all duration-300 hover:scale-105 shadow-lg"
+              className="inline-flex items-center space-x-2 bg-white text-purple-700 px-8 py-4 rounded-2xl font-semibold hover:bg-purple-50 transition-all duration-300 hover:scale-105 shadow-lg"
             >
               <span>Enquire About Premium Modules</span>
             </a>
@@ -760,7 +758,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="relative overflow-hidden">
+            <div className="relative overflow-hidden w-full max-w-full">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl blur-3xl opacity-30"></div>
               <div className="relative bg-white/10 backdrop-blur-lg p-4 rounded-3xl border border-white/20 shadow-2xl">
                 <img
@@ -981,22 +979,17 @@ export default function Home() {
                 ))}
               </div>
             </div>
-            <div className="relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl blur-3xl opacity-20"></div>
+            <div className="relative w-full">
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl blur-3xl opacity-30"></div>
 
-              <div
-                className="relative p-3 rounded-2xl 
-                  bg-white/10 backdrop-blur-xl 
-                  border border-white/30 
-                  shadow-[0_25px_80px_rgba(0,0,0,0.25)]"
-              >
+              <div className="relative bg-white/10 backdrop-blur-lg p-4 rounded-3xl border border-white/20 shadow-2xl">
                 <img
                   src="/hero.png"
                   alt="School Management"
-                  className="w-full h-auto rounded-2xl object-cover"
+                  className="w-full h-auto rounded-2xl shadow-2xl object-cover"
                 />
               </div>
-              <div className="absolute bottom-0 right-2 sm:right-4 transform sm:translate-y-1/2 translate-y-0 bg-white rounded-2xl shadow-xl px-4 py-2 flex items-center space-x-2">
+              <div className="absolute bottom-0 right-4 translate-y-1/2 bg-white rounded-2xl shadow-xl px-5 py-3 flex items-center space-x-3">
                 <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
                   <Check className="w-6 h-6 text-green-600 stroke-[3]" />
                 </div>
@@ -1013,7 +1006,7 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-to-br from-purple-600 to-blue-600 rounded-3xl shadow-2xl p-12 text-white text-center">
+          <div className="bg-gradient-to-br from-purple-600 to-blue-600 rounded-3xl shadow-2xl px-6 py-10 sm:p-12 text-white text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Ready to Transform Your School?
             </h2>
@@ -1021,10 +1014,10 @@ export default function Home() {
               Get in touch with our team to schedule a personalized demo and see
               Asylinx in action
             </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-stretch sm:items-center w-full">
               <a
                 href="tel:+916003432625"
-                className="group bg-white text-purple-600 px-8 py-4 rounded-full font-semibold hover:bg-purple-50 transition-all duration-300 flex items-center space-x-3 hover:scale-105 shadow-lg"
+                className="group w-full sm:w-auto bg-white text-purple-600 px-6 sm:px-8 py-4 rounded-2xl sm:rounded-2xl font-semibold transition-all duration-300 flex items-center justify-center space-x-3 shadow-lg"
               >
                 <Phone className="w-6 h-6" />
                 <div className="text-left">
@@ -1034,7 +1027,7 @@ export default function Home() {
               </a>
               <a
                 href="mailto:contact@asylinx.com"
-                className="group bg-white/10 backdrop-blur-lg text-white px-8 py-4 rounded-full font-semibold border-2 border-white/30 hover:bg-white/20 transition-all duration-300 flex items-center space-x-3 hover:scale-105"
+                className="group w-full sm:w-auto bg-white/10 backdrop-blur-lg text-white px-6 sm:px-8 py-4 rounded-2xl sm:rounded-2xl font-semibold border-2 border-white/30 transition-all duration-300 flex items-center justify-center space-x-3"
               >
                 <Mail className="w-6 h-6" />
                 <div className="text-left">
@@ -1044,10 +1037,10 @@ export default function Home() {
               </a>
             </div>
             <a
-              href="https://wa.me/6003432625"
+              href="https://wa.me/+916003432625"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 flex items-center justify-center space-x-2 text-purple-200 hover:text-white transition-colors cursor-pointer"
+              className="mt-6 w-full sm:w-auto inline-flex items-center justify-center space-x-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full sm:rounded-full transition-all duration-300"
             >
               <svg
                 className="w-5 h-5"
