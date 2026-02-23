@@ -1174,7 +1174,7 @@ export default function Home() {
                 <li className="flex items-start space-x-2">
                   <MapPin className="w-4 h-4 text-purple-400 flex-shrink-0 mt-1" />
                   <span className="hover:text-purple-400 transition-colors">
-                    GS Road, Guwahati, Assam
+                    N. Lakhimpur, Assam - 787001
                   </span>
                 </li>
               </ul>
