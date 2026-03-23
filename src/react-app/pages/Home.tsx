@@ -209,8 +209,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-xl">A</span>
+              <div className="w-10 h-10 flex items-center justify-center shadow-lg">
+                <img
+                  src="/logo.png"
+                  alt="Logo"
+                  className="w-full h-full object-contain rounded-lg"
+                />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                 Asylinx
@@ -1062,10 +1066,11 @@ export default function Home() {
           <div className="grid md:grid-cols-5 gap-8 mb-8">
             <div className="md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-xl">A</span>
-                </div>
-                <span className="text-2xl font-bold">Asylinx</span>
+                <img
+                  src="/footer_logo.png"
+                  alt="Asylinx Logo"
+                  className="h-10 object-contain rounded-md"
+                />
               </div>
               <div className="max-w-sm">
                 <p className="text-gray-400 mb-4">
