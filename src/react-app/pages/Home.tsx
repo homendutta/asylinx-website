@@ -248,7 +248,7 @@ export default function Home() {
                 Benefits
               </a>
               <a
-                href="https://school.asylinx.com/login"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
