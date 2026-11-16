@@ -248,7 +248,7 @@ export default function Home() {
                 Benefits
               </a>
               <a
-                href="https://demo.asylinx.com"
+                href="https://demo.asylinx.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
@@ -313,7 +313,7 @@ export default function Home() {
                 Benefits
               </a>
               <a
-                href="https://school.asylinx.com/login"
+                href="https://demo.asylinx.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block py-2 text-gray-700 hover:text-purple-600 transition-colors font-medium"
